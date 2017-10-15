@@ -20,7 +20,7 @@ return $config = [
             ],
             'Contact'       => [
                 'faclass'   => 'fa fa-pencil',
-                'usl'       => 'http://galette.eu/dc/index.php/pages/Contact'
+                'url'       => 'http://galette.eu/dc/index.php/pages/Contact'
             ]
         ],
         'schema' => [
