@@ -1,0 +1,55 @@
+<?php
+
+return $config = [
+    'project' => [
+        'name'   => 'Galette',
+        'url'    => 'https://galette.eu',
+        'enable_contact' => false,
+        'footer_links' => [
+            'Galette'   => [
+                'faclass'   => 'fa fa-globe',
+                'url'       => 'https://galette.eu'
+            ],
+            'Documentation' => [
+                'faclass'   => 'fa fa-book',
+                'url'       => 'https://galette.eu/documentation/'
+            ],
+            'Forums'        => [
+                'faclass'   => 'fa fa-comments',
+                'url'       => 'https://forums.galette.eu'
+            ],
+            'Contact'       => [
+                'faclass'   => 'fa fa-pencil',
+                'usl'       => 'http://galette.eu/dc/index.php/pages/Contact'
+            ]
+        ],
+        'schema' => [
+            'usage' => false        ],
+        'mapping' => [
+            'avg_members'       => 'avg_entities',
+            'avg_contributions' => 'avg_computers',
+            'avg_transactions'  => 'avg_networkequipments'
+        ]
+    ],
+    'baseurl' => 'https://telemetry.galette.eu',
+    'db' => [
+        'driver'    => "pgsql",
+        'host'      => "localhost",
+        'database'  => "galette_telemetry",
+        'username'  => "telemetry",
+        'password'  => "telemetry",
+        'charset'   => 'utf8',
+        'collation' => 'utf8_unicode_ci',
+        'prefix'    => '',
+        //'prefix'    => 'galette_',
+    ],
+    'recaptcha' => [
+        'sitekey'   => '',
+        'secret'    => ''
+    ],
+    'mail_admin' => '',
+    'mail_from' => 'telemetry@galette.eu',
+    'debug' => true,
+    'displayErrorDetails' => true,
+    'addContentLengthHeader' => false,
+];
