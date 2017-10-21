@@ -32,7 +32,7 @@ class GaletteReference extends AbstractMigration
     {
         $table = $this->table('galette_reference');
         $table
-            ->addColumn('reference_id', integer)
+            ->addColumn('reference_id', 'integer')
             ->addForeignKey(
                 'reference_id',
                 'reference',
