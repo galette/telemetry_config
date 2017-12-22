@@ -35,6 +35,9 @@ return $config = [
                 'label'         => 'Number of members',
                 'short_label'   => '#members'
             ]
+        ],
+        'dashboard' => [
+            'install_modes' => false
         ]
     ],
     'baseurl' => 'https://telemetry.galette.eu',
