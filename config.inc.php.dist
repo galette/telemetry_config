@@ -38,7 +38,10 @@ return $config = [
         ],
         'dashboard' => [
             'install_modes' => false,
-            'php_versions'  => 'bar'
+            'php_versions'  => 'bar',
+            'leaflet'       => [
+                'provider'  => 'CartoDB.Positron'
+            ]
         ]
     ],
     'baseurl' => 'https://telemetry.galette.eu',
