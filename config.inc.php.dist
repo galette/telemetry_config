@@ -37,7 +37,8 @@ return $config = [
             ]
         ],
         'dashboard' => [
-            'install_modes' => false
+            'install_modes' => false,
+            'php_versions'  => 'bar'
         ]
     ],
     'baseurl' => 'https://telemetry.galette.eu',
