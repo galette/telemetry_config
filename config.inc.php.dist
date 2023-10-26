@@ -4,7 +4,6 @@ return $config = [
     'project' => [
         'name'   => 'Galette',
         'url'    => 'https://galette.eu',
-        'enable_contact' => false,
         'footer_links' => [
             'Galette'   => [
                 'faclass'   => 'fa fa-globe',
@@ -36,13 +35,6 @@ return $config = [
                 'short_label'   => '#members'
             ]
         ],
-        'dashboard' => [
-            'install_modes' => false,
-            'php_versions'  => 'bar',
-            'leaflet'       => [
-                'provider'  => 'CartoDB.Positron'
-            ]
-        ]
     ],
     'baseurl' => 'https://telemetry.galette.eu',
     'db' => [
@@ -53,8 +45,7 @@ return $config = [
         'password'  => "telemetry",
         'charset'   => 'utf8',
         'collation' => 'utf8_unicode_ci',
-        'prefix'    => '',
-        //'prefix'    => 'galette_',
+        'prefix'    => ''
     ],
     'recaptcha' => [
         'sitekey'   => '',
