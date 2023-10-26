@@ -1,11 +1,11 @@
 Galette Telemetry config
 ========================
 
-[Telemetry](https://github.com/glpi-project/telemetry) configuration and overrides for Galette.
+[Telemetry](https://github.com/galette/telemetry) configuration and overrides for Galette.
 
 To set up:
 ```
-$ git clone https://github.com/glpi-project/telemetry.git
+$ git clone https://github.com/galette/telemetry.git
 $ cd telemetry
 $ mkdir projects
 $ cd projects

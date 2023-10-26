@@ -11,7 +11,7 @@ return $config = [
             ],
             'Documentation' => [
                 'faclass'   => 'fa fa-book',
-                'url'       => 'https://galette.eu/documentation/'
+                'url'       => 'https://doc.galette.eu'
             ],
             'Forums'        => [
                 'faclass'   => 'fa fa-comments',
@@ -19,7 +19,7 @@ return $config = [
             ],
             'Contact'       => [
                 'faclass'   => 'fa fa-pencil',
-                'url'       => 'http://galette.eu/dc/index.php/pages/Contact'
+                'url'       => 'http://galette.eu/site/contact'
             ]
         ],
         'schema' => [
@@ -34,7 +34,7 @@ return $config = [
                 'label'         => 'Number of members',
                 'short_label'   => '#members'
             ]
-        ],
+        ]
     ],
     'baseurl' => 'https://telemetry.galette.eu',
     'db' => [
@@ -52,8 +52,5 @@ return $config = [
         'secret'    => ''
     ],
     'mail_admin' => '',
-    'mail_from' => 'telemetry@galette.eu',
-    'debug' => true,
-    'displayErrorDetails' => true,
-    'addContentLengthHeader' => false,
+    'mail_from' => 'telemetry+noreply@galette.eu'
 ];
